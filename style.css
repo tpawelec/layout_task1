@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i|Open+Sans:300,400');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+body {
+  background: #fff;
+}
+
+/* GRID */
+
+[class*="col-"] {
+  float: left;
+  min-height: 1px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.row::after, .row::before {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* HEADER SECTION */
+
+.header {
+    height: 634px;
+    background-image: url('img/header.jpg');
+    background-position: center;
+    color: white;
+}
+
+.header .address-header {
+    position: absolute;
+    top: 303px;
+    left: 45px;
+    font-family: 'Open Sans', sans-serif;
+    transform: rotate(-90deg);
+    text-transform: uppercase;
+    font-size: 8px;
+    letter-spacing: 0.2px;
+}
+
+.header .address-header span:first-child {
+    font-weight: 300;
+    margin-right: 9px;
+}
+.header .address-header span:last-child {
+    font-weight: 400;
+}
+.header .logo {
+    position: relative;
+    top: 56px;
+}
+
+.header .logo img {
+    float: left;
+    margin-right: 7px;
+    height: 27px;
+    width: 27px;
+}
+
+.header .logo .name {
+    line-height: 13.87px;
+    padding-top: 7px;
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    letter-spacing: -0.16px;
+    font-weight: 400;
+}
+
+.header .page-title {
+    position: relative;
+    top: 299px;
+    font-family: 'Open Sans', sans-serif;
+    clear: both;
+}
+
+.header .title-par {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.header .desc-par {
+    line-height: 16px;
+    font-size: 10px;
+    font-weight: 400px;
+    height: 25px;
+    width: 310px;
+}
+
+.header .iphone {
+    position: absolute;
+    top: 178px;
+    right: 99px;
+}
+
+/* END OF HEADER SECTION */
+
+
+/* TEXT SECTION */
+
+.text {
+    min-height: 360px;
+    padding-top: 75px;
+    padding-bottom: 55px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text [class*='col-'] {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+.text h2 {
+    color: #222626;
+    font-weight: 300;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+
+.text p {
+    font-size: 10px;
+    color: #959595;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 10px 0;
+}
+/* 75 + 55 + 230 */ 
