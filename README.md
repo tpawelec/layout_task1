@@ -3,4 +3,4 @@
 First addictional taks at Kodilla Front-End Developer Bootcamp <br>
 No Bootstrap and SASS. Raw HTML and CSS.
 
-No RWD yet. 
+RWD for tablets.
