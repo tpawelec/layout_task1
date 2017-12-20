@@ -32,102 +32,18 @@ body {
     display: table;
 }
 
-.col-1 {
-    width: 8.33%;
-}
-
-.col-2 {
-    width: 16.66%;
-}
-
-.col-3 {
-    width: 25%;
-}
-
-.col-4 {
-    width: 33.33%;
-}
-
-.col-5 {
-    width: 41.66%;
-}
-
-.col-6 {
-    width: 50%;
-}
-
-.col-7 {
-    width: 58.33%;
-}
-
-.col-8 {
-    width: 66.66%;
-}
-
-.col-9 {
-    width: 75%;
-}
-
-.col-10 {
-    width: 83.33%;
-}
-
-.col-11 {
-    width: 91.66%;
-}
-
-.col-12 {
-    width: 100%;
-}
-
-
-.col-s-1 {
-    width: 8.33%;
-}
-
-.col-s-2 {
-    width: 16.66%;
-}
-
-.col-s-3 {
-    width: 25%;
-}
-
-.col-s-4 {
-    width: 33.33%;
-}
-
-.col-s-5 {
-    width: 41.66%;
-}
-
-.col-s-6 {
-    width: 50%;
-}
-
-.col-s-7 {
-    width: 58.33%;
-}
-
-.col-s-8 {
-    width: 66.66%;
-}
-
-.col-s-9 {
-    width: 75%;
-}
-
-.col-s-10 {
-    width: 83.33%;
-}
-
-.col-s-11 {
-    width: 91.66%;
-}
-
-.col-s-12 {
-    width: 100%;
-}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 
 
 /* HEADER SECTION */
@@ -599,7 +515,7 @@ a {
     .col-m-4 {width: 33.33%;}
     .col-m-5 {width: 41.66%;}
     .col-m-6 {width: 50%;}
-    .col-m-7 width: 58.33%;}
+    .col-m-7 {width: 58.33%;}
     .col-m-8 {width: 66.66%;}
     .col-m-9 {width: 75%;}
     .col-m-10 {width: 83.33%;}
@@ -645,8 +561,8 @@ a {
     .image-section h2 {
         margin-top: 150px;
     }
-    /* COLOUR (TABLETS */
-    ) .colour {
+    /* COLOUR (TABLETS) */
+    .colour {
         height: auto;
     }
 
@@ -671,5 +587,80 @@ a {
 
     .footer .container > .row .right {
         order: 1;
+    }
+}
+
+/* MEDIA QUERY FOR SMARTPHONES */
+
+@media (max-width: 420px) {
+
+    .container {max-width: 90%;}
+    
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+    /* HEADER (SMARTPHONES) */
+    .header {
+        height: 100vh;
+    }
+
+    .header .logo {
+        position: relative;
+        top: 56px;
+    }
+
+    .header .page-title {
+        top: 350px;
+    }
+
+    .header .desc-par {
+    width: auto;
+    }
+    .header .iphone {
+        display: none;
+    }
+    
+    /* FOUR COLUMNS SECTION (SMARTPHONES) */
+
+    .four-columns {
+        height: auto;
+    }
+
+    .four-columns [class*='col-'] {
+        padding: 0 20px 20px 0;
+    }
+
+    /* IMAGE SECTION (SMARTPHONES) */
+    .image-section {
+        height: 100vh;
+        background-position: 50% 80%;
+    }
+
+    .image-section h2 {
+        margin-top: 240px;
+    }
+    
+    /* COLOUR SECTION (SMARTPHONES) */
+    
+    .colour [class*='col-'] {
+        padding-bottom: 20px;
+    }
+    /* FOOTER (TABLETS) */
+    .footer {
+        height: auto;
+    }
+    
+    .footer .right input {
+        width: auto;
     }
 }
