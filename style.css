@@ -52,6 +52,7 @@ body {
     height: 634px;
     background-image: url('img/header.jpg');
     background-position: center;
+    background-size: cover;
     color: white;
 }
 
@@ -268,6 +269,7 @@ body {
     height: 583px;
     background-image: url('img/imagesection-bg.jpg');
     background-position: center;
+    background-size: cover;
 }
 
 .image-section [class*='col-'] {
@@ -525,7 +527,7 @@ a {
     /* HEADER (TABLETS) */
     .header {
         height: 100vh;
-        background-size: cover;
+        
     }
 
     .header .logo {
@@ -557,7 +559,6 @@ a {
     .image-section {
         height: 100vh;
         background-position: 50% 80%;
-        background-size: cover;
     }
 
     .image-section h2 {
