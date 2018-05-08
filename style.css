@@ -525,6 +525,7 @@ a {
     /* HEADER (TABLETS) */
     .header {
         height: 100vh;
+        background-size: cover;
     }
 
     .header .logo {
@@ -556,6 +557,7 @@ a {
     .image-section {
         height: 100vh;
         background-position: 50% 80%;
+        background-size: cover;
     }
 
     .image-section h2 {
